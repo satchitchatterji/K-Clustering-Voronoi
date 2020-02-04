@@ -18,7 +18,7 @@ You can also uncomment autoRun() in draw to increment the algorithm using the ke
 <img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi01975.png">
 <img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi01180.png">
 <img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi01604.png">
-<img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi902.png">
+<img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi00902.png">
 <img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi04402.png">
 <img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi04682.png">
 <img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi00441.png">
