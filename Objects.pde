@@ -1,7 +1,6 @@
-
 public class Cluster {
-  float x;
-  float y;
+  // represented by a dot of randomly assigned colour
+  float x, y;
   color Color;
   Cluster() {
   }
@@ -24,9 +23,6 @@ public class Cluster {
     }
   }
   void drawCluster() {
-    strokeWeight(15);
-    //stroke(255, 255, 0);
-    //point(x, y);
     strokeWeight(10);
     stroke(Color);
     point(x, y);
@@ -34,17 +30,18 @@ public class Cluster {
 }
 
 public class Point {
-  float x=0.0;
-  float y=0.0;
-  boolean chosen=false;
+  float x, y;
+  boolean chosen;
   color Color;
-  int c=0;
+  int c;
   float lx, angle;
   Point() {
   }
   Point(float x_, float y_) {
     x=x_;
     y=y_;
+    c = 0;
+    chosen=false;
   }
   void randomInitialize(String type) {
     if (type == "RECT") {
@@ -74,12 +71,16 @@ public class Point {
   }
   void drawPoint() {
     stroke(Color);
-    strokeWeight(circleSize);
-    point(x, y);
-    //rect(x,y,circleSize,circleSize);
+    strokeWeight(ptSize);
+    if (ptType == "POINT") {
+      point(x, y);
+    } else if (ptType == "SQUARE") {
+      rect(x, y, ptSize, ptSize);
+    }
   }
 }
 void mousePressed() {
+  // only used to manually input/change points
   int chosenIndex=checkChoose();
   if (chosenIndex!=-1) {
     point[chosenIndex].x=mouseX;
