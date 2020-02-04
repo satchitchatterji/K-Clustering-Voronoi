@@ -11,6 +11,8 @@ The program can be customised with several parameters:
 
 You can also uncomment autoRun() in draw to increment the algorithm using the keyboard manually, and change the canvas size.
 
+Pause autoRun with keystroke 'p', reset with 'r', save current frame as png image with 's'.  
+
 <b>Example Outputs:</b> <i>(varied parameters)</i>
 <p align="center">
 <img width = "250" height = "250" src="https://github.com/satchitchatterji/K-Clustering-Voronoi/blob/master/example_outputs/voronoi00546.png">
